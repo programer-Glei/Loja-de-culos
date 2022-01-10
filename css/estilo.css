@@ -34,11 +34,40 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 9%;
 }
 
 .header .logo {
   font-size: 2.5rem;
   color: #333;
   font-weight: bolder;
+  margin-right: auto;
+}
+
+.header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.header .navbar ul li a {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 2rem;
+  display: block;
+}
+
+.header .navbar ul li a:hover {
+  background: #eee;
+}
+
+.header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 20rem;
+  background: #fff;
+}
+
+.header .navbar ul li ul li {
+  width: 100%;
 }
 /*# sourceMappingURL=estilo.css.map */
