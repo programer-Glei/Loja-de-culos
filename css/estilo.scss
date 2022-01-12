@@ -29,7 +29,7 @@ html{
 }
 
 #menu-btn{
-    
+    display: none;
 }
 
 .header{
@@ -96,5 +96,11 @@ html{
         &:hover{
             color: $pink;
         }
+    }
+
+    .search-form{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        border-top: $border;
     }
 }

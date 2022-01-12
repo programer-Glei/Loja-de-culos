@@ -18,6 +18,10 @@ html {
   overflow-x: hidden;
 }
 
+#menu-btn {
+  display: none;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -85,5 +89,13 @@ html {
 
 .header .icons div:hover, .header .icons a:hover {
   color: #e84393;
+}
+
+.header .search-form {
+  position: absolute;
+  top: 99%;
+  left: 0;
+  right: 0;
+  border-top: 0.2rem solid #333;
 }
 /*# sourceMappingURL=estilo.css.map */
