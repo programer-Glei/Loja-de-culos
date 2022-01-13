@@ -102,5 +102,18 @@ html{
         position: absolute;
         top: 99%; left: 0; right: 0;
         border-top: $border;
+        background: $white;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+
+        input{
+            width: 100%;
+            height: 100%;
+            padding-right: 1rem;
+            font-size: 1.7rem;
+            color: $light-color;
+        }
     }
 }
