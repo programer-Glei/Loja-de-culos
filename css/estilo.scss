@@ -107,6 +107,11 @@ html{
         display: flex;
         align-items: center;
         padding: 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        &.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
 
         input{
             width: 100%;
