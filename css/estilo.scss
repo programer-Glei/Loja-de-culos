@@ -115,5 +115,15 @@ html{
             font-size: 1.7rem;
             color: $light-color;
         }
+
+        label{
+            font-size: 2.5rem;
+            color: $black;
+            cursor: pointer;
+
+            &:hover{
+                color: $pink;
+            }
+        }
     }
 }
