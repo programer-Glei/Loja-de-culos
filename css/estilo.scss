@@ -144,3 +144,27 @@ html{
         padding: 0 2rem;
     }
 }
+
+@media (max-width:768px){
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header{
+        padding: 2rem;
+
+        .navbar{
+            position: absolute;
+            top: 99%; left: 0; right: 0;
+            background: $white;
+
+            ul li{
+                width: 100%;
+
+                ul{
+                    position: relative;
+                }
+            }
+        }
+    }
+}
