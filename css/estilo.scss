@@ -32,6 +32,7 @@ html{
     display: none;
 }
 
+/* section HEADER */
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -130,5 +131,16 @@ html{
                 color: $pink;
             }
         }
+    }
+}
+
+/* media queries */
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding: 0 2rem;
     }
 }

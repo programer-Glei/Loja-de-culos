@@ -22,6 +22,7 @@ html {
   display: none;
 }
 
+/* section HEADER */
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -131,5 +132,15 @@ html {
 
 .header .search-form label:hover {
   color: #e84393;
+}
+
+/* media queries */
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 0 2rem;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
