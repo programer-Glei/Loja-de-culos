@@ -163,6 +163,16 @@ html {
   }
   .header .navbar ul li ul {
     position: relative;
+    width: 100%;
+  }
+  .header .navbar ul li ul li a {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 4500px) {
+  html {
+    font-size: 50%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

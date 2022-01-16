@@ -163,8 +163,20 @@ html{
 
                 ul{
                     position: relative;
+                    width: 100%;
+
+                    li a{
+                        padding-left: 4rem;
+                    }
                 }
             }
         }
     }
+}
+
+@media (max-width:4500px){
+    html{
+        font-size: 50%;
+    }
+
 }
