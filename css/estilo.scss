@@ -157,6 +157,11 @@ html{
             position: absolute;
             top: 99%; left: 0; right: 0;
             background: $white;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            &.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
 
             ul li{
                 width: 100%;
@@ -174,7 +179,7 @@ html{
     }
 }
 
-@media (max-width:4500px){
+@media (max-width:450px){
     html{
         font-size: 50%;
     }
