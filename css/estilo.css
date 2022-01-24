@@ -160,8 +160,31 @@ section {
   padding: 1rem 0;
 }
 
+.footer .box-container .box a:hover {
+  color: #e84393;
+}
+
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
+
 .footer .box-container .box a i {
   color: #e84393;
+  padding-right: 0.5rem;
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.footer .box-container .box form input[type="email"] {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  background: #666;
+  font-size: 1.6rem;
 }
 
 /* media queries */

@@ -158,9 +158,32 @@ section{
                 color: $light-color;
                 padding: 1rem 0;
 
+                &:hover{
+                    color: $pink;
+
+                    i{
+                        padding-right: 2rem;
+                    }
+                }
+
                 i{
                     color: $pink;
+                    padding-right: 0.5rem;
                 }
+            }
+
+            p{
+                font-size: 1.5rem;
+                color: $light-color;
+                margin-bottom: 1rem;
+            }
+
+            form input[type="email"]{
+                width: 100%;
+                padding: 1rem 1.2rem;
+                border-radius: 0.5rem;
+                background: $light-color;
+                font-size: 1.6rem;
             }
         }
     }
