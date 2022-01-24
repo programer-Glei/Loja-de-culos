@@ -53,6 +53,13 @@ section{
     }
 }
 
+@keyframes fadeIn {
+    0%{
+        transform: translateY(3rem);
+        opacity: 0;
+    }
+}
+
 /* section HEADER */
 .header{
     position: sticky;
@@ -168,6 +175,11 @@ section{
         background-position: center !important;
         display: flex;
         align-items: center;
+        display: none;
+
+        &.active{
+            display: flex;
+        }
 
         .content{
 
@@ -175,7 +187,39 @@ section{
                 color: $black;
                 display: block;
                 font-size: 2rem;
+                animation: fadeIn 0.4s linear 0.2s backwards;
             }
+
+            h3{
+                color: $black;
+                padding: 1rem 0;
+                font-size: 6rem;
+                animation: fadeIn 0.4s linear 0.4s backwards;
+            }
+
+            .btn{
+                animation: fadeIn 0.4s linear 0.6s backwards;
+            }
+        }
+    }
+
+    #next-slide, #prev-slide{
+        position: absolute;
+        bottom: 2rem; right: 2rem;
+        height: 6rem;
+        width: 6rem;
+        line-height: 5.5rem;
+        font-size: 4rem;
+        color: $black;
+        border: $border;
+        background: $white;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        text-align: center;
+
+        &:hover{
+            background: $black;
+            color: $white;
         }
     }
 }
