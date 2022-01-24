@@ -26,6 +26,23 @@ section {
   padding: 2rem 9%;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2.8rem;
+  font-size: 1.7rem;
+  color: #333;
+  border: 0.2rem solid #333;
+  background: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  background: #333;
+  color: #fff;
+}
+
 /* section HEADER */
 .header {
   position: -webkit-sticky;
@@ -185,6 +202,7 @@ section {
   border-radius: 0.5rem;
   background: #666;
   font-size: 1.6rem;
+  margin: 0.5rem 0;
 }
 
 /* media queries */

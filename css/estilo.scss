@@ -36,6 +36,23 @@ section{
     padding: 2rem 9%;
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2.8rem;
+    font-size: 1.7rem;
+    color: $black;
+    border: $border;
+    background: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
+    &:hover{
+        background: $black;
+        color: $white;
+    }
+}
+
 /* section HEADER */
 .header{
     position: sticky;
@@ -184,6 +201,7 @@ section{
                 border-radius: 0.5rem;
                 background: $light-color;
                 font-size: 1.6rem;
+                margin: 0.5rem 0;
             }
         }
     }
