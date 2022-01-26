@@ -240,6 +240,10 @@ section {
   color: #fff;
 }
 
+.home #prev-slide {
+  right: 9rem;
+}
+
 /* section FOOTER */
 .footer .box-container {
   display: -ms-grid;
