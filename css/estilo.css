@@ -244,6 +244,15 @@ section {
   right: 9rem;
 }
 
+/* section BANNER */
+.banner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 1.5rem;
+}
+
 /* section FOOTER */
 .footer .box-container {
   display: -ms-grid;

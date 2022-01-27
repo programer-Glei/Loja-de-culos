@@ -228,6 +228,11 @@ section{
     }
 }
 
+/* section BANNER */
+.banner{
+    @include grid(31rem);
+}
+
 /* section FOOTER */
 .footer{
 
