@@ -266,6 +266,7 @@ section{
 
             .btn{
                 padding: 0.6rem 2rem;
+                font-size: 1.5rem;
             }
         }
     }
@@ -375,6 +376,10 @@ section{
 @media (max-width:450px){
     html{
         font-size: 50%;
+    }
+
+    .home .slide .content h3{
+        font-size: 4rem;
     }
 
 }
