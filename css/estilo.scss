@@ -60,6 +60,14 @@ section{
     }
 }
 
+.title{
+    font-size: 3rem;
+    color: $black;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -250,6 +258,11 @@ section{
     #prev-slide{
         right: 9rem
     }
+}
+
+/* section PRODUCTS */
+.products .box-container{
+    @include grid(31rem);
 }
 
 /* section BANNER */

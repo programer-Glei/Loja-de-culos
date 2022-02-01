@@ -50,6 +50,14 @@ section {
   color: #333;
 }
 
+.title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -266,6 +274,15 @@ section {
 
 .home #prev-slide {
   right: 9rem;
+}
+
+/* section PRODUCTS */
+.products .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 1.5rem;
 }
 
 /* section BANNER */
