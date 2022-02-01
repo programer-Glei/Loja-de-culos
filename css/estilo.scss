@@ -262,7 +262,18 @@ section{
 
 /* section PRODUCTS */
 .products .box-container{
-    @include grid(31rem);
+    @include grid(32rem);
+
+    .box{
+        border-radius: 0.5rem;
+        text-align: center;
+        border: $border;
+
+        .image{
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+    }
 }
 
 /* section BANNER */
