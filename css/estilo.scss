@@ -49,6 +49,14 @@ section{
         color: $white;
         padding-top: 0.7rem;
         font-size: 1.7rem;
+
+        a{
+            color: $white;
+
+            &:hover{
+                color: $black;
+            }
+        }
     }
 }
 

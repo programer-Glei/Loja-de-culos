@@ -26,6 +26,30 @@ section {
   padding: 2rem 9%;
 }
 
+.heading {
+  text-align: center;
+  background: #e84393;
+}
+
+.heading h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.heading p {
+  color: #fff;
+  padding-top: 0.7rem;
+  font-size: 1.7rem;
+}
+
+.heading p a {
+  color: #fff;
+}
+
+.heading p a:hover {
+  color: #333;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -275,7 +299,7 @@ section {
 .banner .box .content {
   position: absolute;
   top: 50%;
-  right: 0.1rem;
+  right: 2rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
