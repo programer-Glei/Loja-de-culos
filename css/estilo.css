@@ -291,6 +291,11 @@ section {
   border: 0.2rem solid #333;
 }
 
+.products .box-container .box:hover .image .icons {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .products .box-container .box .image {
   border-radius: 0.5rem;
   overflow: hidden;
@@ -305,6 +310,8 @@ section {
   left: 0;
   right: 0;
   border-bottom: 0.2rem solid #333;
+  -webkit-transform: translateY(-7rem);
+          transform: translateY(-7rem);
 }
 
 .products .box-container .box .image .icons a {
@@ -325,6 +332,15 @@ section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.products .box-container .box .content {
+  padding: 1.5rem 0;
+}
+
+.products .box-container .box .content h3 {
+  font-size: 1.7rem;
+  color: #333;
 }
 
 /* section BANNER */

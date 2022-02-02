@@ -269,6 +269,10 @@ section{
         text-align: center;
         border: $border;
 
+        &:hover .image .icons{
+            transform: translateY(0);
+        }
+
         .image{
             border-radius: 0.5rem;
             overflow: hidden;
@@ -280,6 +284,7 @@ section{
                 position: absolute;
                 top: 0; left: 0; right: 0;
                 border-bottom: $border;
+                transform: translateY(-7rem);
 
                 a{
                     height: 5rem;
@@ -299,6 +304,15 @@ section{
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
+            }
+        }
+
+        .content{
+            padding: 1.5rem 0;
+
+            h3{
+                font-size: 1.7rem;
+                color: $black;
             }
         }
     }
