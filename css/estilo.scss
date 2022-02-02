@@ -278,6 +278,21 @@ section{
 
             .icons{
                 position: absolute;
+                top: 0; left: 0; right: 0;
+                border-bottom: $border;
+
+                a{
+                    height: 5rem;
+                    width: 5rem;
+                    line-height: 5rem;
+                    font-size: 2rem;
+                    color: $black;
+
+                    &:hover{
+                        background: $black;
+                        color: $white;
+                    }
+                }
             }
 
             img{

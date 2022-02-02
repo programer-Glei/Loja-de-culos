@@ -301,6 +301,23 @@ section {
 
 .products .box-container .box .image .icons {
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 0.2rem solid #333;
+}
+
+.products .box-container .box .image .icons a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.products .box-container .box .image .icons a:hover {
+  background: #333;
+  color: #fff;
 }
 
 .products .box-container .box .image img {
