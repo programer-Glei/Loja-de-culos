@@ -360,6 +360,7 @@ section {
 .products .box-container .box .content .price span {
   font-size: 1.5rem;
   text-decoration: line-through;
+  color: #666;
 }
 
 /* section BANNER */
