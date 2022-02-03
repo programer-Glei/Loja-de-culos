@@ -311,8 +311,27 @@ section{
             padding: 1.5rem 0;
 
             h3{
-                font-size: 1.7rem;
+                font-size: 2rem;
                 color: $black;
+            }
+
+            .stars{
+                padding: 1rem 0;
+
+                i{
+                    font-size: 1.4rem;
+                    color: $pink;
+                }
+            }
+
+            .price{
+                font-size: 2.2rem;
+                color: $black;
+
+                span{
+                    font-size: 1.5rem;
+                    text-decoration: line-through;
+                }
             }
         }
     }

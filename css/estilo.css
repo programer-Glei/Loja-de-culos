@@ -339,8 +339,27 @@ section {
 }
 
 .products .box-container .box .content h3 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #333;
+}
+
+.products .box-container .box .content .stars {
+  padding: 1rem 0;
+}
+
+.products .box-container .box .content .stars i {
+  font-size: 1.4rem;
+  color: #e84393;
+}
+
+.products .box-container .box .content .price {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.products .box-container .box .content .price span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
 }
 
 /* section BANNER */
