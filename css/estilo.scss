@@ -419,6 +419,10 @@ section{
         overflow: hidden;
         border: $border;
 
+        &:hover .image img{
+            transform: scale(1.1);
+        }
+
         .image{
             width: 100%;
             height: 25rem;
@@ -438,6 +442,36 @@ section{
                 font-size: 2rem;
                 color: $black;
                 line-height: 2;
+            }
+
+            p{
+                font-size: 1.4rem;
+                line-height: 2.5;
+                color: $light-color;
+                padding: 1rem 0;
+            }
+
+            .icons{
+                border-top: $border;
+                padding-top: 2rem;
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                a{
+                    font-size: 1.4rem;
+                    color: $light-color;
+
+                    &:hover{
+                        color: $pink;
+                    }
+
+                    i{
+                        padding-right: 0.5rem;
+                        color: $pink;
+                    }
+                }
             }
         }
     }
