@@ -352,12 +352,30 @@ section{
 
             img{
                 width: 100%;
-            }
-
-            .content{
-                flex: 1 1 42rem;
+                border-radius: 0.5rem;
             }
         }
+
+        .content{
+            flex: 1 1 42rem;
+
+            h3{
+                font-size: 3.5rem;
+                color: $black;
+                line-height: 2;
+            }
+
+            p{
+                font-size: 1.4rem;
+                line-height: 2.5;
+                color: $light-color;
+                padding: 1rem 0;
+            }
+        }
+    }
+
+    .icons-container{
+        @include grid(16rem);
     }
 }
 
