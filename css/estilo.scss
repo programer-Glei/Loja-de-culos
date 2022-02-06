@@ -376,6 +376,25 @@ section{
 
     .icons-container{
         @include grid(16rem);
+        margin-top: 2.5rem;
+
+        .icons{
+            padding: 3rem 2rem;
+            border-radius: 0.5rem;
+            border: $border;
+            text-align: center;
+            cursor: pointer;
+
+            img{
+                height: 7rem;
+                margin-bottom: 1rem;
+            }
+
+            h3{
+                font-size: 1.7rem;
+                color: $black;
+            }
+        }
     }
 }
 

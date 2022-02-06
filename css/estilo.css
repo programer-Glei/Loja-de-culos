@@ -412,6 +412,25 @@ section {
   -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.about .icons-container .icons {
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #333;
+  text-align: center;
+  cursor: pointer;
+}
+
+.about .icons-container .icons img {
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+
+.about .icons-container .icons h3 {
+  font-size: 1.7rem;
+  color: #333;
 }
 
 /* section BANNER */
