@@ -338,6 +338,29 @@ section{
     }
 }
 
+/* section ABOUT */
+.about{
+
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .image{
+            flex: 1 1 42rem;
+
+            img{
+                width: 100%;
+            }
+
+            .content{
+                flex: 1 1 42rem;
+            }
+        }
+    }
+}
+
 /* section BANNER */
 .banner{
     @include grid(31rem);
