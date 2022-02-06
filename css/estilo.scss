@@ -385,6 +385,18 @@ section{
             text-align: center;
             cursor: pointer;
 
+            &:hover{
+                background: $black;
+
+                img{
+                    filter: invert(1);
+                }
+
+                h3{
+                    color: $white;
+                }
+            }
+
             img{
                 height: 7rem;
                 margin-bottom: 1rem;

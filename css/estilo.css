@@ -423,6 +423,19 @@ section {
   cursor: pointer;
 }
 
+.about .icons-container .icons:hover {
+  background: #333;
+}
+
+.about .icons-container .icons:hover img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.about .icons-container .icons:hover h3 {
+  color: #fff;
+}
+
 .about .icons-container .icons img {
   height: 7rem;
   margin-bottom: 1rem;
