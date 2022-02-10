@@ -499,6 +499,11 @@ section{
                 font-size: 1.6rem;
                 color: $light-color;
             }
+
+            textarea{
+                height: 15rem;
+                resize: none;
+            }
         }
 
         .map{
