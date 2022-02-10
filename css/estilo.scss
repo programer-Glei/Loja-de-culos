@@ -488,6 +488,23 @@ section{
         form{
             flex: 1 1 42rem;
             padding: 2rem;
+            border-radius: 0.5rem;
+            border: $border;
+
+            .box, textarea{
+                width: 100%;
+                border-bottom: $border;
+                margin-bottom: 1rem;
+                padding: 1rem 0;
+                font-size: 1.6rem;
+                color: $light-color;
+            }
+        }
+
+        .map{
+            flex: 1 1 42rem;
+            border-radius: 0.5rem;
+            width: 100%;
         }
     }
 }
