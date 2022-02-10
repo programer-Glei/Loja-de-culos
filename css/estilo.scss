@@ -65,7 +65,7 @@ section{
     color: $black;
     margin-bottom: 2rem;
     text-align: center;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .btn{
@@ -473,6 +473,21 @@ section{
                     }
                 }
             }
+        }
+    }
+}
+
+/* section CONTACT */
+.contact{
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        form{
+            flex: 1 1 42rem;
+            padding: 2rem;
         }
     }
 }

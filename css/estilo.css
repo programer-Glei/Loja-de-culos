@@ -55,7 +55,7 @@ section {
   color: #333;
   margin-bottom: 2rem;
   text-align: center;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .btn {
@@ -523,6 +523,23 @@ section {
 .blogs .box-container .box .content .icons a i {
   padding-right: 0.5rem;
   color: #e84393;
+}
+
+/* section CONTACT */
+.contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact .row form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  padding: 2rem;
 }
 
 /* section BANNER */
