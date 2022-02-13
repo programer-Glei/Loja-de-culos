@@ -535,6 +535,23 @@ section{
             display: flex;
             border-radius: 0.5rem;
             background: $light-bg;
+            padding: 0.5rem 1rem;
+            align-items: center;
+            gap: 1rem;
+
+            span{
+                color: $light-color;
+                margin-left: 1rem;
+                font-size: 2rem;
+            }
+
+            input{
+                width: 100%;
+                padding: 1rem;
+                background: none;
+                font-size: 1.5rem;
+                color: $light-color;
+            }
         }
     }
 }
