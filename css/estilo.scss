@@ -524,6 +524,18 @@ section{
         border: $border;
         padding: 2rem;
         text-align: center;
+
+        h3{
+            font-size: 2.2rem;
+            color: $black;
+        }
+
+        .inputBox{
+            margin: 1rem 0;
+            display: flex;
+            border-radius: 0.5rem;
+            background: $light-bg;
+        }
     }
 }
 

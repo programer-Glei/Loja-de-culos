@@ -576,6 +576,20 @@ section {
   text-align: center;
 }
 
+.login-form form h3, .register-form form h3 {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.login-form form .inputBox, .register-form form .inputBox {
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.5rem;
+  background: #eee;
+}
+
 /* section BANNER */
 .banner {
   display: -ms-grid;
