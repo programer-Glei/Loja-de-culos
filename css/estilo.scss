@@ -553,6 +553,30 @@ section{
                 color: $light-color;
             }
         }
+
+        .flex{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 0;
+            margin-bottom: 1rem;
+
+            label{
+                font-size: 1.5rem;
+                cursor: pointer;
+                color: $light-color;
+            }
+
+            a{
+                font-size: 1.5rem;
+                color: $light-color;
+                margin-left: auto;
+
+                &:hover{
+                    color: $pink;
+                }
+            }
+        }
     }
 }
 
