@@ -579,6 +579,7 @@ section {
 .login-form form h3, .register-form form h3 {
   font-size: 2.2rem;
   color: #333;
+  margin-bottom: 0.7rem;
 }
 
 .login-form form .inputBox, .register-form form .inputBox {
@@ -618,7 +619,7 @@ section {
           align-items: center;
   gap: 0.5rem;
   padding: 1rem 0;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .login-form form .flex label, .register-form form .flex label {
@@ -635,6 +636,19 @@ section {
 
 .login-form form .flex a:hover, .register-form form .flex a:hover {
   color: #e84393;
+}
+
+.login-form form input[type="submit"], .register-form form input[type="submit"] {
+  background: #333;
+  color: #fff;
+}
+
+.login-form form input[type="submit"]:hover, .register-form form input[type="submit"]:hover {
+  background: #e84393;
+}
+
+.login-form form .btn, .register-form form .btn {
+  width: 100%;
 }
 
 /* section BANNER */
