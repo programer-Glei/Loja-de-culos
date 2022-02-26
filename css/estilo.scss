@@ -594,6 +594,28 @@ section{
     }
 }
 
+/* section CART */
+.shopping-cart{
+
+    .box-container{
+        @include grid(31rem);
+
+        .box{
+            border-radius: 0.5rem;
+            border: $border;
+            padding: 3rem 2rem;
+            position: relative;
+
+            .fa-times{
+                position: absolute;
+                top: 1rem; right: 1.5rem;
+                font-size: 2rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
 /* section BANNER */
 .banner{
     @include grid(31rem);
