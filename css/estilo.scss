@@ -599,18 +599,32 @@ section{
 
     .box-container{
         @include grid(31rem);
+        margin-bottom: 2rem;
 
         .box{
             border-radius: 0.5rem;
             border: $border;
             padding: 3rem 2rem;
             position: relative;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
 
             .fa-times{
                 position: absolute;
                 top: 1rem; right: 1.5rem;
-                font-size: 2rem;
+                font-size: 2.5rem;
                 cursor: pointer;
+                color: $light-color;
+
+                &:hover{
+                    color: $pink;
+                }
+            }
+
+            img{
+                height: 10rem;
             }
         }
     }
