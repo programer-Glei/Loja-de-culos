@@ -634,7 +634,40 @@ section{
                     padding-bottom: 0.5rem;
                     color: $black;
                 }
+
+                form{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    padding: 1rem 0;
+    
+                    span{
+                        color: $light-color;
+                        font-size: 1.5rem;
+                    }
+    
+                    input{
+                        width: 8rem;
+                        font-size: 1.5rem;
+                        color: $light-color;
+                        padding: 1rem;
+                        border-radius: 0.5rem;
+                        background: $light-color;
+                    }
+                }
+
+                .price{
+                    font-size: 2rem;
+                    color: $black;
+
+                    span{
+                        color: $light-color;
+                        font-size: 1.5rem;
+                        text-decoration: line-through;
+                    }
+                }
             }
+
         }
     }
 }

@@ -698,6 +698,42 @@ section {
   color: #333;
 }
 
+.shopping-cart .box-container .box .content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+.shopping-cart .box-container .box .content form span {
+  color: #666;
+  font-size: 1.5rem;
+}
+
+.shopping-cart .box-container .box .content form input {
+  width: 8rem;
+  font-size: 1.5rem;
+  color: #666;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #666;
+}
+
+.shopping-cart .box-container .box .content .price {
+  font-size: 2rem;
+  color: #333;
+}
+
+.shopping-cart .box-container .box .content .price span {
+  color: #666;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+
 /* section BANNER */
 .banner {
   display: -ms-grid;
