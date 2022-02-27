@@ -626,6 +626,15 @@ section{
             img{
                 height: 10rem;
             }
+
+            .content{
+
+                h3{
+                    font-size: 1.7rem;
+                    padding-bottom: 0.5rem;
+                    color: $black;
+                }
+            }
         }
     }
 }
