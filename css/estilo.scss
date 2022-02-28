@@ -598,7 +598,7 @@ section{
 .shopping-cart{
 
     .box-container{
-        @include grid(31rem);
+        @include grid(32rem);
         margin-bottom: 2rem;
 
         .box{
@@ -650,9 +650,9 @@ section{
                         width: 8rem;
                         font-size: 1.5rem;
                         color: $light-color;
-                        padding: 1rem;
+                        padding: 0.5rem 1rem;
                         border-radius: 0.5rem;
-                        background: $light-color;
+                        background: $light-bg;
                     }
                 }
 
@@ -667,7 +667,22 @@ section{
                     }
                 }
             }
+        }
+    }
 
+    .cart-total{
+        padding: 2rem;
+        border-radius: 0.5rem;
+        border: $border;
+
+        h3{
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: $black;
+
+            span{
+                color: $pink;
+            }
         }
     }
 }
@@ -824,6 +839,10 @@ section{
 
     .home .slide .content h3{
         font-size: 4rem;
+    }
+
+    .shopping-cart .box-container .box{
+        flex-flow: column;
     }
 
 }
